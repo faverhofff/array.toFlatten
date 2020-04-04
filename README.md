@@ -12,6 +12,9 @@ let array = [[1,2,[3]],4,'xyz'];
 let result = array.toFatten();
 
 console.log(result);
+
+output:
+    [1,2,3,4, 'xyz']
 ```
 
 ### For to run tests:
