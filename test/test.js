@@ -7,7 +7,9 @@ it('exists method for arrays', () => {
 
 it('when use empty value', () => {
     var arrays = [];
+
     let result = arrays.toFlatten();
+    
     assert.equal(Array.isArray(result), true);
     assert.equal(result.length, 0);
 })
