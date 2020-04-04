@@ -6,10 +6,4 @@ Object.defineProperty(Array.prototype, 'toFlatten', {
     }
 });
 
-// Array.prototype.toFlatten = function() {
-//         return [].concat(this).reduce(function (flat, toFlatten) {
-//             return flat.concat(Array.isArray(toFlatten) ? toFlatten.toFlatten(toFlatten) : toFlatten);
-//         }, []);   
-// };
-
 module.exports = Array;
