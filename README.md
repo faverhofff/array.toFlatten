@@ -1,6 +1,6 @@
 # Array.toFlatten
 
-### Adding custom functions into Array.prototype "toFlatten"
+### Adding custom function into Array.prototype "toFlatten"
 
 That will flatten an array of arbitrarily nested arrays of values into a flat array . e.g. [[1,2,[3]],4,'xyz'] -> [1,2,3,4, 'xyz'].
 
