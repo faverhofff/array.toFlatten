@@ -1,2 +1,21 @@
-# array.toFlatten
-Adding custom functions into Array.prototype "toFlatten"
+# Array.toFlatten
+
+##Adding custom functions into Array.prototype "toFlatten"
+
+That will flatten an array of arbitrarily nested arrays of values into a flat array . e.g. [[1,2,[3]],4,'xyz'] -> [1,2,3,4, 'xyz'].
+
+Install:
+
+npm install
+
+Run tests: 
+
+npm test
+
+Usage:
+
+let array = [[1,2,[3]],4,'xyz'];
+
+let result = array.toFatten();
+
+console.log(result);

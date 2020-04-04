@@ -1,0 +1,22 @@
+{
+  "name": "array.toflatten",
+  "version": "1.0.0",
+  "description": "That will flatten an array of arbitrarily nested arrays of integers into a flat array of integers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faverhofff/array.toFlatten.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faverhofff/array.toFlatten/issues"
+  },
+  "homepage": "https://github.com/faverhofff/array.toFlatten#readme",
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
+}
